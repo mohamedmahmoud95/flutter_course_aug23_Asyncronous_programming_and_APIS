@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "165866806807",
+    "project_id": "new-project-32862382",
+    "storage_bucket": "new-project-32862382.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165866806807:android:f90d28721e41aed5b30652",
+        "android_client_info": {
+          "package_name": "com.example.flutter_course_aug23_asyncronous_programming_and_api_http_requests"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ZgWEBMCqN2QtfPUzeXOpc5QO8XA1s9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

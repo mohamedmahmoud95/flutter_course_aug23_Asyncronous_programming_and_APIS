@@ -1,7 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_course_aug23_asyncronous_programming_and_api_http_requests/async_programming_examples/async_programming_example.dart';
+import 'package:flutter_course_aug23_asyncronous_programming_and_api_http_requests/http_examples/http_example1.dart';
+import 'package:flutter_course_aug23_asyncronous_programming_and_api_http_requests/sign_in_screen.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main ()  async
+{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
   runApp(const MyApp());
 }
 
@@ -17,7 +27,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AsyncProgrammingExample(),
+      home:
+      //AsyncProgrammingExample(),
+     // HttpExample1(),
+      SignInScreen(),
     );
   }
 }
